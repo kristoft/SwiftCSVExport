@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftCSVExport"
-  s.version      = "2.0.1"
-  s.summary      = "Simple way to export csv file with rich feature framework and written in Swift 3 & 4."
+  s.version      = "3.0"
+  s.summary      = "Simple way to export csv file with rich feature framework and written in Swift 5."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "The SwiftCSVExport is a completely customizable framework that can be used in any iOS/Mac app.(CSV Parser & Data Formater)"
 
-  s.homepage     = "https://github.com/vigneshuvi/SwiftCSVExport"
-  s.documentation_url = "https://github.com/vigneshuvi/SwiftCSVExport/blob/master/README.md"
+  s.homepage     = "https://github.com/kristoft/SwiftCSVExport"
+  s.documentation_url = "https://github.com/kristoft/SwiftCSVExport/blob/master/README.md"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.9"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/vigneshuvi/SwiftCSVExport.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kristoft/SwiftCSVExport.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
